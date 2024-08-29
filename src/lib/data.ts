@@ -2,12 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// import corpcommentImg from "@/public/corpcommentImg.png";
-// import rmtdevImg from "@/public/rmtdev.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
-import corpcommentImg from "../public/corpcomment.png";
-import rmtdevImg from "../public/rmtdev.png";
-import wordanalyticsImg from "../public/wordanalytics.png";
+import corpcommentImg from "/public/corpcomment.png";
+import rmtdevImg from "/public/rmtdev.png";
+import wordanalyticsImg from "/public/wordanalytics.png";
 
 export const links = [
     {
@@ -38,25 +35,25 @@ export const links = [
 
 export const experiencesData = [
     {
-    title: "Full-stack Developer intern",
-    location: "Toronto, ON",
-    description: "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-    },
-    {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description: "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "Back-end Developer",
+    location: "Ahmedabad, India",
+    description: "I graduated with Bachelor's Degree in Computer Engineering. I found a job as a back-end developer in my last year of college.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021-2022",
+},
+{
+    title: "Graduate student at Humber College",
+    location: "Toronto, ON",
+    description: "I studied Information Technology solutions for 2 years where I upskilled my knowledge to the full stack and learned more about Machine Learning and Deep Learning.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2024",
     },
     {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description: "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    title: "Full-Stack Developer (Intern)",
+    location: "Toronto, ON",
+    description: "I'm now a full-stack developer open to full-time opportunities. My stack includes React, Next.js, TypeScript, Tailwind, Prisma, MongoDB and SQL.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
     },
 ] as const;
 
